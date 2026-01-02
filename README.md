@@ -50,9 +50,11 @@ python ai-pipeline/postprocessing/seg_converter.py \
 ---
 
 ## 🏗️ **Production Architecture**
+
 <div align="center">
   <img width="70%" alt="Image" src="https://github.com/user-attachments/assets/fd4e5d93-2c44-41d9-8407-aaf51739de02" />
 </div>
+
 ### **Core Components**
 
 | Component | Technology | Purpose |
