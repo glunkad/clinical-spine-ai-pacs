@@ -1,0 +1,4 @@
+﻿[submodule "ai-pipeline/models/totalspineseg"]
+    path = ai-pipeline/models/totalspineseg
+    url = https://github.com/neuropoly/totalspineseg.git
+    branch = main
