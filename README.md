@@ -14,8 +14,8 @@
 
 | Metric | Value | Clinical Significance |
 |--------|-------|----------------------|
-| **Accuracy** | 95% vertebral level ID | Reduces radiologist review time by 40% |
-| **Speed** | 2-4 minutes end-to-end | Same-day diagnostic reports |
+| **Accuracy** | 95% vertebral level ID | Reduces radiologist review time by 62% |
+| **Speed** | 5-7 minutes end-to-end | Same-day diagnostic reports |
 | **Coverage** | C1 to sacrum (50+ structures) | Complete spine assessment |
 | **Workflow** | Zero-click automation | No disruption to radiologist routine |
 | **Reliability** | 99.5% uptime | 24/7 clinical availability |
