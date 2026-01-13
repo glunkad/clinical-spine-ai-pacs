@@ -60,8 +60,8 @@ python ai-pipeline/postprocessing/seg_converter.py \
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| **Worklist Engine** | Java Spring Boot | Clinical job orchestration |
-| **Database** | MySQL | Workflow state management |
+| **Worklist ** | Java Spring Boot | Clinical job orchestration |
+| **Database** | PostgreSQL  | Workflow state management |
 | **Preprocessing** | dcm2niix (Python wrapper) | DICOM → NIfTI conversion |
 | **AI Engine** | TotalSpineSeg (nnU-Net v2) | Spine segmentation |
 | **Postprocessing** | itkimage2segimage | NIfTI → DICOM SEG |
@@ -131,7 +131,7 @@ docker-compose -f deployment/docker/docker-compose.yml up -d
 # Services:
 # - totalspineseg-ai: AI processing engine
 # - java-worklist: Job orchestration
-# - mysql-db: Workflow state
+# - PostgreSQL -db: Workflow state
 ```
 
 ---
@@ -151,7 +151,7 @@ OS: Ubuntu 20.04+ / RHEL 8+
 ```yaml
 AI Framework: nnU-Net v2.6.2, PyTorch 2.5+, TotalSpineSeg
 Medical Tools: dcm2niix, SimpleITK, pydicom, itkimage2segimage
-Integration: Java Spring Boot, MySQL, dcm4che, OHIF Viewer
+Integration: Java Spring Boot, PostgreSQL , dcm4che, OHIF Viewer
 Infrastructure: Docker, Kubernetes, CUDA 11.8
 ```
 
